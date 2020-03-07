@@ -1,0 +1,26 @@
+{
+  "name": "sim-covid19",
+  "version": "1.0.0",
+  "description": "Simplified COVID-19 timeline and simulation built on simulateearth.com engine.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node node_modules/yamljs/bin/yaml2json simulation.yaml > public/simulation.json"
+  },
+  "dependencies": {
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simulateearth/sim-covid19.git"
+  },
+  "author": "Jonas Felix (https://www.felixideas.ch)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simulateearth/sim-covid19/issues"
+  },
+  "homepage": "https://github.com/Simulateearth/sim-covid19#readme"
+}
