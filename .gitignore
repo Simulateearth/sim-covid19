@@ -1,6 +1,7 @@
 # built files
 public/*.json 
 
+.DS_Store
 
 # Logs
 logs
