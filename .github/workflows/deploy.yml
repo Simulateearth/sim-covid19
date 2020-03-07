@@ -1,4 +1,4 @@
-name: Github Pages Publish
+name: Publish json to github pages
 
 on:
   push:
